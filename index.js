@@ -6,7 +6,7 @@ var dt = new Date();
 var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
 
 
-var client = mqtt.connect('wss://test.mosquitto.org:8081/mqtt')
+var client = mqtt.connect('wss://mqtt.eclipseprojects.io:443/mqtt')
 
 var pubTopic = document.getElementById('topic')
 var message = document.getElementById('payload')
